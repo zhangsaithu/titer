@@ -13,6 +13,6 @@ Guidance:
 
 5. Note that a user-friendly online version of TITER is coming soon.
 
-If you have any questions, please feel free to contact me :)
+If you have any questions, please feel free to contact me : )
 
 Email: zhangsai13@mails.tsinghua.edu.cn
