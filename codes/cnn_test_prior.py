@@ -116,14 +116,14 @@ print 'Predicting on test data...'
 y_test_pred_n = np.zeros((len(y_test),1))
 y_test_pred_p = np.zeros((len(y_test),1))
 
-for i in range(1):
+for i in range(32):
   model.load_weights('model/bestmodel_'+str(i)+'.hdf5')
   y_test_pred = model.predict(X_test,verbose=1)
   y_test_pred_n += y_test_pred
   y_test_pred_p += y_test_pred*codon
 
-y_test_pred_n = y_test_pred_n/1
-y_test_pred_p = y_test_pred_p/1
+y_test_pred_n = y_test_pred_n/32
+y_test_pred_p = y_test_pred_p/32
 
 print 'Perf without prior, AUC: '+str(roc_auc_score(y_test, y_test_pred_n))
 print 'Perf without prior, AUPR: '+str(average_precision_score(y_test, y_test_pred_n))
