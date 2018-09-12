@@ -9,10 +9,6 @@ Guidance:
 
 3. Unzip data.zip, then put the test data in the data/ folder if you want to predict your own data. Otherwise, directly run codes/titer_test.py to reproduce the results in our paper. Note that all the input data should be formatted in Python's array structure.
 
-4. All the trained deep learning models are in the model/ folder.
-
-5. Note that a user-friendly online version of TITER is coming soon.
-
 If you have any questions, please feel free to contact me : )
 
 Email: zhangsai13@mails.tsinghua.edu.cn
